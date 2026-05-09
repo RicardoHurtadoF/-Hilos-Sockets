@@ -35,8 +35,7 @@ El objetivo es comparar rendimiento, comportamiento y escalabilidad.
 ├── MainRunnable.java
 ├── MainThread.java
 ├── Makefile
-├── capturas/
-├── resultados/
+├── Informe/
 └── README.md
 ```
 
