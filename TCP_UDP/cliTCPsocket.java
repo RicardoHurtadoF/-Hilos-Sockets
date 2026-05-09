@@ -1,6 +1,9 @@
 // ==================
 // CLIENTE TCP
 // ==================
+import java.net.*;
+import java.io.*;
+
 public class cliTCPsocket {
 
    public static void main(String argv[]) {
