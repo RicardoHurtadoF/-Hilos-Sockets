@@ -1,20 +1,26 @@
 package tallerThreads;
 
-public class Cliente { 
-	
-	private String nombre; 
-	private int[] carroCompra; 
-	
+public class Cliente {
+
+	// Nombre del cliente
+	private String nombre;
+
+	// Productos del carrito
+	private int[] carroCompra;
+
+	// Constructor
 	public Cliente(String nombre, int[] carroCompra) {
-		this.nombre = nombre; 
-		this.carroCompra = carroCompra; 
+		this.nombre = nombre;
+		this.carroCompra = carroCompra;
 	}
-	
-	public String getNombre() { 
+
+	// Retorna el nombre del cliente
+	public String getNombre() {
 		return nombre;
 	}
-	
-	public int[] getCarroCompra() { 
+
+	// Retorna los productos del carrito
+	public int[] getCarroCompra() {
 		return carroCompra;
 	}
 }
